@@ -1,0 +1,584 @@
+11/06/2022 14:48:13 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 14:48:13 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt not found in cache, downloading to /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp01y7tdqq
+11/06/2022 14:48:14 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   copying /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp01y7tdqq to cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 14:48:14 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   creating metadata file for /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 14:48:14 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   removing temp file /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp01y7tdqq
+11/06/2022 14:48:14 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 14:48:14 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin not found in cache, downloading to /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmpla3kfgy4
+11/06/2022 14:49:44 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   copying /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmpla3kfgy4 to cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 14:49:44 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   creating metadata file for /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 14:49:44 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   removing temp file /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmpla3kfgy4
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json not found in cache, downloading to /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp8chqw0i0
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   copying /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp8chqw0i0 to cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   creating metadata file for /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   removing temp file /var/folders/w4/q7bv_t1n0sg6qb2mwj26k__h0000gn/T/tmp8chqw0i0
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 14:49:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 14:49:48 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.weight', 'mlp.bias']
+11/06/2022 14:49:48 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 14:49:48 - INFO - root -   train data size: 5210, validation data size: 578
+11/06/2022 14:49:48 - INFO - root -   Number of train optimization steps is : 489
+11/06/2022 15:02:25 - INFO - root -   Epoch 1, Train loss: 0.2929, Val loss: 0.0026, Val accy: 100.00%
+11/06/2022 15:14:51 - INFO - root -   Epoch 2, Train loss: 0.0025, Val loss: 0.0016, Val accy: 100.00%
+11/06/2022 15:27:18 - INFO - root -   Epoch 3, Train loss: 0.0020, Val loss: 0.0014, Val accy: 100.00%
+11/06/2022 16:12:28 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 16:12:28 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 16:12:29 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 16:12:29 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 16:12:29 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 16:12:32 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/06/2022 16:12:32 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 16:12:32 - INFO - root -   train data size: 151, validation data size: 16
+11/06/2022 16:12:32 - INFO - root -   Number of train optimization steps is : 4
+11/06/2022 16:13:27 - INFO - root -   Epoch 1, Train loss: 1.3658, Val loss: 1.3650, Val accy: 50.00%
+11/06/2022 16:14:22 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 16:14:22 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 16:14:23 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 16:14:23 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 16:14:23 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 16:14:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/06/2022 16:14:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 16:14:26 - INFO - root -   train data size: 151, validation data size: 16
+11/06/2022 16:14:26 - INFO - root -   Number of train optimization steps is : 4
+11/06/2022 16:15:21 - INFO - root -   Epoch 1, Train loss: 1.3658, Val loss: 1.3650, Val accy: 50.00%
+11/06/2022 16:18:34 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 16:18:34 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 16:18:35 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 16:18:35 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 16:18:35 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 16:18:38 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/06/2022 16:18:38 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 16:18:38 - INFO - root -   train data size: 151, validation data size: 16
+11/06/2022 16:18:38 - INFO - root -   Number of train optimization steps is : 4
+11/06/2022 16:19:33 - INFO - root -   Epoch 1, Train loss: 1.3658, Val loss: 1.3650, Val accy: 50.00%
+11/06/2022 16:25:00 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 16:25:00 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 16:25:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 16:25:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 16:25:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 16:25:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/06/2022 16:25:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 16:25:04 - INFO - root -   train data size: 151, validation data size: 16
+11/06/2022 16:25:04 - INFO - root -   Number of train optimization steps is : 4
+11/06/2022 16:25:59 - INFO - root -   Epoch 1, Train loss: 1.3658, Val loss: 1.3650, Val accy: 50.00%
+11/06/2022 16:26:31 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 16:26:34 - INFO - root -   Loading model:
+BertClassifier(bert_config_json={'architectures': ['BertForMaskedLM'],
+                                 'attention_probs_dropout_prob': 0.1,
+                                 'hidden_act': 'gelu',
+                                 'hidden_dropout_prob': 0.1, 'hidden_size': 768,
+                                 'initializer_range': 0.02,
+                                 'intermediate_size': 3072,
+                                 'layer_norm_eps': 1e-12,
+                                 'max_position_embeddings': 512,
+                                 'model_type': 'bert',
+                                 'num_attention_heads': 12,
+                                 'num_hidden_layers': 12, 'pad_token_...
+                                       ('[unused13]', 14), ('[unused14]', 15),
+                                       ('[unused15]', 16), ('[unused16]', 17),
+                                       ('[unused17]', 18), ('[unused18]', 19),
+                                       ('[unused19]', 20), ('[unused20]', 21),
+                                       ('[unused21]', 22), ('[unused22]', 23),
+                                       ('[unused23]', 24), ('[unused24]', 25),
+                                       ('[unused25]', 26), ('[unused26]', 27),
+                                       ('[unused27]', 28), ('[unused28]', 29), ...]),
+               do_lower_case=True, epochs=1, label_list=array([0, 1, 2, 3]),
+               num_mlp_layers=1)
+11/06/2022 17:29:54 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 17:29:55 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 17:29:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 17:29:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 17:29:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 17:29:59 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/06/2022 17:29:59 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 17:29:59 - INFO - root -   train data size: 302, validation data size: 33
+11/06/2022 17:29:59 - INFO - root -   Number of train optimization steps is : 9
+11/06/2022 17:31:35 - INFO - root -   Epoch 1, Train loss: 1.6941, Val loss: 1.6240, Val accy: 3.03%
+11/06/2022 17:36:52 - INFO - root -   Loading model:
+BertClassifier()
+11/06/2022 17:36:52 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/06/2022 17:36:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/06/2022 17:36:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/06/2022 17:36:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/06/2022 17:36:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.0.weight', 'mlp.3.0.bias', 'mlp.3.1.weight', 'mlp.3.1.bias', 'mlp.3.1.running_mean', 'mlp.3.1.running_var', 'mlp.4.weight', 'mlp.4.bias']
+11/06/2022 17:36:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/06/2022 17:36:56 - INFO - root -   train data size: 302, validation data size: 33
+11/06/2022 17:36:56 - INFO - root -   Number of train optimization steps is : 9
+11/06/2022 17:38:32 - INFO - root -   Epoch 1, Train loss: 1.7370, Val loss: 1.6487, Val accy: 3.03%
+11/07/2022 07:27:18 - INFO - root -   Loading model:
+BertClassifier()
+11/07/2022 07:27:18 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/07/2022 07:27:19 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/07/2022 07:27:19 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/07/2022 07:27:19 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/07/2022 07:27:22 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.weight', 'mlp.3.bias']
+11/07/2022 07:27:22 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/07/2022 07:27:22 - INFO - root -   train data size: 45075, validation data size: 5008
+11/07/2022 07:27:22 - INFO - root -   Number of train optimization steps is : 5632
+11/07/2022 09:09:22 - INFO - root -   Epoch 1, Train loss: 0.8031, Val loss: 0.5724, Val accy: 80.55%
+11/07/2022 10:51:00 - INFO - root -   Epoch 2, Train loss: 0.5344, Val loss: 0.5606, Val accy: 79.93%
+11/07/2022 12:31:13 - INFO - root -   Epoch 3, Train loss: 0.4556, Val loss: 0.5825, Val accy: 78.73%
+11/07/2022 14:12:34 - INFO - root -   Epoch 4, Train loss: 0.3896, Val loss: 0.6091, Val accy: 78.25%
+11/07/2022 21:40:26 - INFO - root -   Loading model:
+BertClassifier()
+11/07/2022 21:40:29 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/07/2022 21:40:30 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/07/2022 21:40:30 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/07/2022 21:40:30 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/07/2022 21:40:33 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.weight', 'mlp.3.bias']
+11/07/2022 21:40:33 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/07/2022 21:40:33 - INFO - root -   train data size: 302, validation data size: 33
+11/07/2022 21:40:33 - INFO - root -   Number of train optimization steps is : 9
+11/07/2022 21:42:10 - INFO - root -   Epoch 1, Train loss: 1.6123, Val loss: 1.5880, Val accy: 42.42%
+11/07/2022 21:45:15 - INFO - root -   Loading model:
+BertClassifier()
+11/07/2022 21:45:16 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/07/2022 21:45:16 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/07/2022 21:45:16 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/07/2022 21:45:16 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/07/2022 21:45:20 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.weight', 'mlp.3.bias']
+11/07/2022 21:45:20 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/07/2022 21:45:20 - INFO - root -   train data size: 6242, validation data size: 693
+11/07/2022 21:45:20 - INFO - root -   Number of train optimization steps is : 585
+11/07/2022 21:46:05 - INFO - root -   Loading model:
+BertClassifier()
+11/07/2022 21:46:12 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/07/2022 21:46:13 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/07/2022 21:46:13 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/07/2022 21:46:13 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/07/2022 21:46:16 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.weight', 'mlp.3.bias']
+11/07/2022 21:46:16 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/07/2022 21:46:16 - INFO - root -   train data size: 6242, validation data size: 693
+11/07/2022 21:46:16 - INFO - root -   Number of train optimization steps is : 585
+11/07/2022 22:01:01 - INFO - root -   Epoch 1, Train loss: 1.5263, Val loss: 1.4883, Val accy: 38.67%
+11/07/2022 22:15:38 - INFO - root -   Epoch 2, Train loss: 1.4478, Val loss: 1.3843, Val accy: 43.87%
+11/07/2022 22:30:17 - INFO - root -   Epoch 3, Train loss: 1.3581, Val loss: 1.3505, Val accy: 46.03%
+11/08/2022 06:52:00 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 06:52:00 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 06:52:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 06:52:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 06:52:01 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 06:52:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.0.weight', 'mlp.2.0.bias', 'mlp.2.1.weight', 'mlp.2.1.bias', 'mlp.2.1.running_mean', 'mlp.2.1.running_var', 'mlp.3.0.weight', 'mlp.3.0.bias', 'mlp.3.1.weight', 'mlp.3.1.bias', 'mlp.3.1.running_mean', 'mlp.3.1.running_var', 'mlp.4.weight', 'mlp.4.bias']
+11/08/2022 06:52:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 06:52:04 - INFO - root -   train data size: 6242, validation data size: 693
+11/08/2022 06:52:04 - INFO - root -   Number of train optimization steps is : 975
+11/08/2022 07:08:32 - INFO - root -   Epoch 1, Train loss: 1.5571, Val loss: 1.5202, Val accy: 26.55%
+11/08/2022 07:24:58 - INFO - root -   Epoch 2, Train loss: 1.5022, Val loss: 1.5155, Val accy: 25.69%
+11/08/2022 07:41:30 - INFO - root -   Epoch 3, Train loss: 1.4971, Val loss: 1.5329, Val accy: 25.83%
+11/08/2022 07:57:57 - INFO - root -   Epoch 4, Train loss: 1.4929, Val loss: 1.5325, Val accy: 25.54%
+11/08/2022 08:14:24 - INFO - root -   Epoch 5, Train loss: 1.4862, Val loss: 1.4785, Val accy: 38.53%
+11/08/2022 11:25:44 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 11:25:45 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 11:25:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 11:25:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 11:25:45 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 11:25:48 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/08/2022 11:25:48 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 11:25:48 - INFO - root -   train data size: 302, validation data size: 33
+11/08/2022 11:25:48 - INFO - root -   Number of train optimization steps is : 27
+11/08/2022 11:27:25 - INFO - root -   Epoch 1, Train loss: 1.3014, Val loss: 1.3329, Val accy: 60.61%
+11/08/2022 11:29:01 - INFO - root -   Epoch 2, Train loss: 0.9721, Val loss: 1.1814, Val accy: 60.61%
+11/08/2022 11:30:37 - INFO - root -   Epoch 3, Train loss: 0.6584, Val loss: 0.9920, Val accy: 69.70%
+11/08/2022 11:33:25 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 11:33:26 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 11:33:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 11:33:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 11:33:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 11:33:29 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/08/2022 11:33:29 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 11:33:29 - INFO - root -   train data size: 3526, validation data size: 391
+11/08/2022 11:33:29 - INFO - root -   Number of train optimization steps is : 330
+11/08/2022 11:42:22 - INFO - root -   Epoch 1, Train loss: 0.7901, Val loss: 0.5193, Val accy: 80.56%
+11/08/2022 11:51:17 - INFO - root -   Epoch 2, Train loss: 0.3839, Val loss: 0.4878, Val accy: 82.61%
+11/08/2022 12:00:17 - INFO - root -   Epoch 3, Train loss: 0.2108, Val loss: 0.5064, Val accy: 82.86%
+11/08/2022 14:03:46 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 14:03:52 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 14:03:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 14:03:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 14:03:53 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 14:03:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/08/2022 14:03:56 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 14:03:56 - INFO - root -   train data size: 3820, validation data size: 424
+11/08/2022 14:03:56 - INFO - root -   Number of train optimization steps is : 357
+11/08/2022 14:13:34 - INFO - root -   Epoch 1, Train loss: 0.7762, Val loss: 0.4983, Val accy: 83.49%
+11/08/2022 14:23:07 - INFO - root -   Epoch 2, Train loss: 0.3637, Val loss: 0.4923, Val accy: 84.67%
+11/08/2022 14:32:45 - INFO - root -   Epoch 3, Train loss: 0.1982, Val loss: 0.5009, Val accy: 83.73%
+11/08/2022 16:54:05 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 16:54:05 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 16:54:06 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 16:54:06 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 16:54:06 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 16:54:09 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/08/2022 16:54:09 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 16:54:09 - INFO - root -   train data size: 3526, validation data size: 391
+11/08/2022 16:54:09 - INFO - root -   Number of train optimization steps is : 330
+11/08/2022 17:03:04 - INFO - root -   Epoch 1, Train loss: 0.7901, Val loss: 0.5193, Val accy: 80.56%
+11/08/2022 17:11:56 - INFO - root -   Epoch 2, Train loss: 0.3839, Val loss: 0.4878, Val accy: 82.61%
+11/08/2022 17:20:48 - INFO - root -   Epoch 3, Train loss: 0.2108, Val loss: 0.5064, Val accy: 82.86%
+11/08/2022 18:26:02 - INFO - root -   Loading model:
+BertClassifier()
+11/08/2022 18:26:02 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+11/08/2022 18:26:03 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+11/08/2022 18:26:03 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /Users/adammiyauchi/.cache/torch/pytorch_pretrained_bert/distributed_-1/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+11/08/2022 18:26:03 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+11/08/2022 18:26:06 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.0.weight', 'mlp.0.bias', 'mlp.0.running_mean', 'mlp.0.running_var', 'mlp.1.0.weight', 'mlp.1.0.bias', 'mlp.1.1.weight', 'mlp.1.1.bias', 'mlp.1.1.running_mean', 'mlp.1.1.running_var', 'mlp.2.weight', 'mlp.2.bias']
+11/08/2022 18:26:06 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+11/08/2022 18:26:06 - INFO - root -   train data size: 3820, validation data size: 424
+11/08/2022 18:26:06 - INFO - root -   Number of train optimization steps is : 357
+11/08/2022 18:35:39 - INFO - root -   Epoch 1, Train loss: 0.7762, Val loss: 0.4983, Val accy: 83.49%
+11/08/2022 18:45:12 - INFO - root -   Epoch 2, Train loss: 0.3637, Val loss: 0.4923, Val accy: 84.67%
+11/08/2022 18:54:48 - INFO - root -   Epoch 3, Train loss: 0.1982, Val loss: 0.5009, Val accy: 83.73%
