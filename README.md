@@ -1,4 +1,4 @@
-## Plan:
+## Project Plan:
 1. Fine-tune train a BERT model on an emotion classification dataset. Given some text the model will be tasked with classifying emotion as one of 'anger', 'fear', 'joy', and 'sadness'. 
     - Datasets: 
         1. Tweets: https://competitions.codalab.org/competitions/17751#learn_the_details-datasets
@@ -21,7 +21,7 @@
 ### Measuring Gender Bias
 The Equity Evaluation Corpus (EEC) dataset will be used to measure gender bias in a ML model (https://saifmohammad.com/WebPages/Biases-SA.html). The dataset contains multiple template sentences that only differ by the subjects gender. For example, "Alonzo feels angry" (male subject) and "Shereen feels angry" (female subject). This format will allow us to measure a models gender bias independent of sentence semantics. 
 
-![alt text](form.png "Formula")
+![alt text](form.PNG "Formula")
 
 *Metrics were adapted from https://aclanthology.org/2022.gebnlp-1.20.pdf
 
