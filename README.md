@@ -21,21 +21,7 @@
 ### Measuring Gender Bias
 The Equity Evaluation Corpus (EEC) dataset will be used to measure gender bias in a ML model (https://saifmohammad.com/WebPages/Biases-SA.html). The dataset contains multiple template sentences that only differ by the subjects gender. For example, "Alonzo feels angry" (male subject) and "Shereen feels angry" (female subject). This format will allow us to measure a models gender bias independent of sentence semantics. 
 
-The bias in a single emotion classification $(s)$ is:
-$$
-Bias_{M,F}(s) = \left\{
-    \begin{array}{ll}
-        0 \ \ \ classification(s_{M}) = classification(s_{F}) \\
-        1 \ \ \  \text{otherwise}
-    \end{array}
-\right.
-$$
-
-The total bias in the sentiment classification system $(sc)$ is:
-$$
-Total \ Bias_{M,F}(sc) = \frac{1}{N} \sum_{i=0}^N Bias_{M,F}(s_i)
-$$
-
+![alt text](form.png "Formula")
 
 *Metrics were adapted from https://aclanthology.org/2022.gebnlp-1.20.pdf
 
