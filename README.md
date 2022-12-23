@@ -1,4 +1,4 @@
-## Project Plan:
+## Plan:
 1. Fine-tune train a BERT model on an emotion classification dataset. Given some text the model will be tasked with classifying emotion as one of 'anger', 'fear', 'joy', and 'sadness'. 
     - Datasets: 
         1. Tweets: https://competitions.codalab.org/competitions/17751#learn_the_details-datasets
